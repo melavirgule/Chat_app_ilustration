@@ -1,0 +1,34 @@
+.promo{
+    max-width: 45rem;
+
+    padding: 4rem;
+    text-align: center;
+
+    h1{
+        margin: 3rem 0;
+        font-size: 3.5rem;
+        font-weight: 500;
+        color: $secondary-color-dark;
+
+        transition: transform 0.3s ease-in-out;
+
+        &:hover{
+            transform: scale(1.2);
+        }
+    }
+
+    p{
+        font-size: 1.6rem;
+        line-height: 2.5rem;
+        color: $primary-color;
+    }
+}
+
+
+@media (min-width: 750px){
+    .promo{
+        margin: auto 6rem;
+        text-align: left;
+
+    }
+}
